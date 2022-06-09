@@ -2,11 +2,12 @@
     <div class="row">
         <div class="col-12">
             <nav>
-                <a href="">
+
+                <a href="{{ route('home') }}">
                     <img src="{{URL::asset('/img/dc-logo.png')}}" alt="">
                 </a>
                 <a href="">CHARACTERS</a>
-                <a href="">COMICS</a>
+                <a href="{{ route('db') }}">COMICS</a>
                 <a href="">MOVIES</a>
                 <a href="">TV</a>
                 <a href="">GAMES</a>
