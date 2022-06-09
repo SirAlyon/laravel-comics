@@ -53,9 +53,7 @@
         </div>
     </main>
 
-    <footer>
-        im a footer
-    </footer>
+    @include('partials.footer')
     <script src="{{asset('js/app.js')}}"></script>
     <!-- Se necessario aggiungere un'altro segnaposto per js customizzato per pagine -->
     @yield('script-footer')
