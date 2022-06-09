@@ -21,11 +21,40 @@
     </header>
 
     <main>
+        <div class="jumbotron">
+            <img src="{{URL::asset('/img/jumbotron.jpg')}}" alt="">
+        </div>
+
         @yield('content')
+
+        <div class="call_to_actions">
+            <div class="actions container">
+                <div class="action">
+                    <img src="{{URL::asset('/img/buy-comics-digital-comics.png')}}">
+                    <span>DIGITAL COMICS</span>
+                </div>
+                <div class="action">
+                    <img src="{{URL::asset('/img/buy-comics-digital-comics.png')}}">
+                    <span>DIGITAL COMICS</span>
+                </div>
+                <div class="action">
+                    <img src="{{URL::asset('/img/buy-comics-digital-comics.png')}}">
+                    <span>DIGITAL COMICS</span>
+                </div>
+                <div class="action">
+                    <img src="{{URL::asset('/img/buy-comics-digital-comics.png')}}">
+                    <span>DIGITAL COMICS</span>
+                </div>
+                <div class="action">
+                    <img src="{{URL::asset('/img/buy-comics-digital-comics.png')}}">
+                    <span>DIGITAL COMICS</span>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-    im a footer
+        im a footer
     </footer>
     <script src="{{asset('js/app.js')}}"></script>
     <!-- Se necessario aggiungere un'altro segnaposto per js customizzato per pagine -->

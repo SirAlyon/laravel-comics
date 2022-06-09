@@ -10253,3 +10253,37 @@ header nav a:hover {
   border-bottom: 5px solid rgb(2, 130, 249);
   color: rgb(2, 130, 249);
 }
+
+.jumbotron {
+  height: 450px;
+  overflow: hidden;
+}
+.jumbotron img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.call_to_actions {
+  background-color: rgb(2, 130, 249);
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.call_to_actions .actions {
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+}
+.call_to_actions .actions .action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.call_to_actions .actions .action span {
+  margin-left: 1rem;
+}
+.call_to_actions .actions img {
+  height: 60px;
+}
