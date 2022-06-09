@@ -10228,6 +10228,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header .top_head {
+  background-color: rgb(2, 130, 249);
+  padding: 0.3rem 0;
+}
+header .top_head .container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2rem;
+}
+header .top_head a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.6rem;
+  margin-left: 3rem;
+}
 header img {
   align-self: flex-start;
   padding: 1rem;
@@ -10244,14 +10259,16 @@ header nav {
 header nav a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
   height: 100%;
   display: flex;
   align-items: center;
+  border-bottom: 5px solid transparent;
+  transition: linear 0.2s;
 }
 header nav a:hover {
   border-bottom: 5px solid rgb(2, 130, 249);
   color: rgb(2, 130, 249);
+  font-weight: bold;
 }
 
 .jumbotron {
