@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <!-- Se necessario aggiungere un'altro segnaposto per css customizzato per pagine -->
     @yield('custom-css')
 
 </head>
@@ -21,9 +20,7 @@
     </header>
 
     <main>
-        <div class="jumbotron">
-            <img src="{{URL::asset('/img/jumbotron.jpg')}}" alt="">
-        </div>
+        @yield('jumbotron')
 
         @yield('content')
 
@@ -55,7 +52,6 @@
 
     @include('partials.footer')
     <script src="{{asset('js/app.js')}}"></script>
-    <!-- Se necessario aggiungere un'altro segnaposto per js customizzato per pagine -->
     @yield('script-footer')
 </body>
 
