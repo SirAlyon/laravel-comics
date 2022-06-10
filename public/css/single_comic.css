@@ -20,7 +20,7 @@
   color: black;
   font-size: 1.6rem;
   font-weight: bold;
-  margin: 1.5rem 0;
+  margin: 3rem 0;
   text-align: start;
 }
 .single-comic .comic_price {
@@ -53,4 +53,31 @@
 .main_content .content-head {
   height: 60px;
   background-color: rgb(2, 130, 249);
+}
+.main_content .adv {
+  margin-top: 2rem;
+}
+.main_content .adv img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.full-infos {
+  background-color: rgb(209, 209, 209);
+  padding-bottom: 2rem;
+  position: relative;
+  z-index: 150;
+}
+.full-infos h4 {
+  margin: 1.5rem 0;
+}
+.full-infos .col-3,
+.full-infos .col-9 {
+  padding: 0.3rem 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.full-infos .col-3 a,
+.full-infos .col-9 a {
+  text-decoration: none;
 }

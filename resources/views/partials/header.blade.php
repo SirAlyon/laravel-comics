@@ -12,16 +12,16 @@
                 <a href="{{ route('home') }}">
                     <img src="{{URL::asset('/img/dc-logo.png')}}" alt="">
                 </a>
-                <a href="">CHARACTERS</a>
-                <a href="{{ route('products.index') }}">COMICS</a>
-                <a href="">MOVIES</a>
-                <a href="">TV</a>
-                <a href="">GAMES</a>
-                <a href="">COLLECTABLES</a>
-                <a href="">VIDEOS</a>
-                <a href="">FANS</a>
-                <a href="">NEWS</a>
-                <a href="">SHOP</a>
+                <a href="" class="{{Route::currentRouteName() === 'products.characters' ? 'active' : '' }}">CHARACTERS</a>
+                <a href="{{ route('products.index') }}" class="{{ Route::currentRouteName() === 'products.index' || Route::currentRouteName() === 'products.show' ? 'active' : '' }}">COMICS</a>
+                <a href="" {{Route::currentRouteName() === 'products.movies' ? 'active' : '' }}>MOVIES</a>
+                <a href="" {{Route::currentRouteName() === 'products.tv' ? 'active' : '' }}>TV</a>
+                <a href="" {{Route::currentRouteName() === 'products.games' ? 'active' : '' }}>GAMES</a>
+                <a href="" {{Route::currentRouteName() === 'products.collectables' ? 'active' : '' }}>COLLECTABLES</a>
+                <a href="" {{Route::currentRouteName() === 'products.videos' ? 'active' : '' }}>VIDEOS</a>
+                <a href="" {{Route::currentRouteName() === 'products.fans' ? 'active' : '' }}>FANS</a>
+                <a href="" {{Route::currentRouteName() === 'products.news' ? 'active' : '' }}>NEWS</a>
+                <a href="" {{Route::currentRouteName() === 'products.shop' ? 'active' : '' }}>SHOP</a>
             </nav>
         </div>
     </div>

@@ -10270,6 +10270,10 @@ header nav a:hover {
   color: rgb(2, 130, 249);
   font-weight: bold;
 }
+header nav .active {
+  border-bottom: 5px solid rgb(2, 130, 249);
+  color: rgb(2, 130, 249);
+}
 
 .jumbotron {
   height: 450px;

@@ -47,6 +47,10 @@ header {
                 font-weight: bold;
             }
         }
+        .active{
+            border-bottom: 5px solid rgba(2, 130, 249, 1);
+            color: rgba(2, 130, 249, 1);
+        }
     }
 }
 

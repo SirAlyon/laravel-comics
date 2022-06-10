@@ -77,3 +77,6 @@
 .main_content img:hover .price {
   display: block;
 }
+.main_content a {
+  text-decoration: none;
+}
