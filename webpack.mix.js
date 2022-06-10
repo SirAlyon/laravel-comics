@@ -15,6 +15,8 @@ mix.js('resources/js/app.js', 'public/js')
     .copyDirectory('resources/img', 'public/img')
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/comics.scss', 'public/css')
+    .sass('resources/sass/single_comic.scss', 'public/css')
+
     .options({
         processCssUrls: false
     });

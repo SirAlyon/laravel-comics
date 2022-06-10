@@ -2,6 +2,8 @@
     height: 750px; 
     background-color: black;
     color: white;
+    position: relative;
+    z-index: 150;
     .container{
         position: relative; 
         .btn{
