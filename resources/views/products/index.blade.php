@@ -11,17 +11,24 @@
 @endsection
 
 @section('content')
-
 <div class="main_content">
     <div class="container">
         <div class="row">
-            <h1 class="text-center mt-3">TOP RATED COMICS</h1>
-            <div class="serie-logo">
-            </div>
+           
+            @forelse($comics as $index => $comic)
+            
+                @include('partials.comic')
+                @empty
+                <h2>Nothing to show here...</h2>
+
+            @endforelse
+
         </div>
+        <div class="btn btn_load">LOAD MORE</div>
+
+        <div class="btn btn_current">CURRENT SERIES</div>
     </div>
 </div>
-
 @endsection
 
 @section('call_to_actions')

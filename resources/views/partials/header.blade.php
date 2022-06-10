@@ -13,7 +13,7 @@
                     <img src="{{URL::asset('/img/dc-logo.png')}}" alt="">
                 </a>
                 <a href="">CHARACTERS</a>
-                <a href="{{ route('db') }}">COMICS</a>
+                <a href="{{ route('products.index') }}">COMICS</a>
                 <a href="">MOVIES</a>
                 <a href="">TV</a>
                 <a href="">GAMES</a>
